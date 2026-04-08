@@ -123,18 +123,75 @@
         <hr>
       <section id="brainstorming">
           <h2>Brainstorming</h2>
-          <span><p>In this section, we will document the names we thought of during our brainstorming session.</p></span>
+          <span><p>In this section, we will document the names we thought of during our <em>brainstorming session</em>.</p></span>
+        <ul>
+          <li>
+            <input type="checkbox">
+            <label for="item1">The Code Warriors</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="item1">The Debuggers</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="item1">The Hackers</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="item1">The Coders</label>
+          </li>
+        </ul>
         </section>
         <hr>
         <section id="time-stamps">
           <h2>Time Stamps</h2>
-          <span><p>Time stamps for each discussion point will be documented here.</p></span>
+          <span><p>Time stamps for each <strong>important point</strong> will be documented here.</p></span>
+            <p><b>11:00 - 11:10:</b> <i>(10 minutes)</i> <em>Icebreakers</em></p>
+            <p><b>11:10 - 11:30:</b> <i>(20 minutes)</i> <em>Role preferences</em></p>
+            <p><b>11:30 - 11:50:</b> <i>(20 minutes)</i> <em>Brainstorming session</em></p>
+            <p><b>11:50 - 12:00:</b> <i>(10 minutes)</i> <em>Questions for next meeting</em></p>
+            <br>
         </section>
         <hr>
+        <details>
+          <summary>Summary</summary>
+          <p>Here are some additional notes from the meeting:</p>
+          <ul>
+            <li>New icon decided: <br><img src="./Group_image.jpg" width="50"></li>
+            <li>We will use Messages to communicate and collaborate.</li>
+            <li>
+              Here is the video and audio recording of the meeting. <br>
+              <video controls width="250" poster="./images.jpg">
+                <source src="./video.mp4" type="video/mp4">
+              </video>
+              <br>
+              <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+              </audio>
+              <details>
+                <fieldset>
+                  <cite>~ Never gonna give you up, never gonna let you down, never gonna run around and desert you.~</cite>
+                </fieldset>
+                <p>Yes, you just got <strong><em>Rick-Rolled</em></strong> in 2026.</p>
+                <label for="feedback-choice">How do you feel?</label>
+                <input list="rickroll" id="feedback-choice" name="feedback-choice">
+                <datalist id="rickroll">
+                  <select>
+                  <option value="Never gonna give you up"></option>
+                  <option value= "I can't believe you just did that"></option>
+                  <option value= "Good"></option>
+                  <option value= "What's a Rick-Roll?"></option>
+                  </select>
+                </datalist>
+                <button>Submit</button>
+              </details>
+            </li>
+          </ul>
     </main>
 
         <footer>
-      <h3 id="subscribe">Subscribe</h3>
+      <h3 id="subscribe">Subscribe for more</h3>
       <form onsubmit="alert('Subscribed')">
         <input type="text" placeholder="Enter Email Address" />
         <button>Submit</button>
