@@ -10,6 +10,8 @@ header {
         color: red;
         padding: 1cm;
         font-size: 3rem;
+        padding: 9px 9px 9px 9px;
+        text-align: center;
     }
     h3 {
         background-color: color-mix(in hsl, hsl(0, 0%, 100%), var(--primary-color, hsl(0, 0%, 100%)));
@@ -17,8 +19,18 @@ header {
         text-align: left;
         font-size: 2vh;
     }
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: var(--spacing-unit, 8px);
+    padding-right: var(--spacing-unit, 8px);
 
 }
+
 body {
     background-color: color(colorspace 255 255 255);
     color: black;
@@ -28,12 +40,24 @@ body {
     }
 
     ul {
-        padding: 10pt;
+        padding: 30pt;
+    }
+    margin: 20px 20px 20px 20px;
+
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightblue;
+    border-radius: 30px;
+
+    strong {
+        color: rebeccapurple;
+        text-decoration: underline;
     }
 }
 
 
 footer {
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     color: rgb(0, 0, 0);
     padding: 20px;
