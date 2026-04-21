@@ -7,8 +7,8 @@ assignees: dwu0501
 
 ---
 
-## Goal / Expected Outcome
-<!-- Whatto be completed-->
+## Goal
+What to be completed
 
 ## Steps to Complete
 - [ ] Step 1  
@@ -16,13 +16,13 @@ assignees: dwu0501
 - [ ] Step 3  
 
 ## Lab Section
-<!-- e.g., Issues setup, Pull Requests workflow, Standup notes -->
+e.g., Issues setup, Pull Requests workflow, Standup notes 
 
-## 👤 Assignee
+## Assignee
 Daniel Wu
 
 ## Content
 - Create a new branch for this issue  
 - Make changes on that branch  
 - Open a pull request  
-- Link this issue to the PR before merging
+- Merge with `main`
