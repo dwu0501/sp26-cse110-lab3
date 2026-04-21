@@ -1,0 +1,41 @@
+/* styles.css */
+:root {
+  --primary-color: #3498db;
+  --spacing-unit: 8px;
+}
+
+header {
+    h1 {
+        background-color: color-mix(in hsl, hsl(0, 0%, 100%), var(--primary-color, hsl(0, 0%, 100%)));
+        color: red;
+        padding: 1cm;
+        font-size: 3rem;
+    }
+    h3 {
+        background-color: color-mix(in hsl, hsl(0, 0%, 100%), var(--primary-color, hsl(0, 0%, 100%)));
+        color: black;
+        text-align: left;
+        font-size: 2vh;
+    }
+
+}
+body {
+    background-color: color(colorspace 255 255 255);
+    color: black;
+
+    p {
+        font-size: 1.2em;
+    }
+
+    ul {
+        padding: 10pt;
+    }
+}
+
+
+footer {
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+}
