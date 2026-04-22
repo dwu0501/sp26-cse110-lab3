@@ -127,6 +127,7 @@ ol {
     height: auto;
 }
 
+/* This also counts as a pseudo-class selector*/
 form button:hover {
     background-color: #2980b9;
 }
@@ -160,4 +161,34 @@ form button:active {
         flex-wrap: wrap;
     }
 
+}
+
+
+* {
+    color: black;
+}
+
+input[type="text"] {
+    border: 1px solid rebeccapurple;
+}
+
+
+header > h1 {
+    letter-spacing: 1px;
+}
+
+h2 ~ p {
+    color: black;
+}
+
+h2 + p {
+    margin-top: 0;
+}
+
+div.block {
+    background-color: #f9f9f9;
+}
+
+section:has(table) {
+    padding: 20px;
 }
