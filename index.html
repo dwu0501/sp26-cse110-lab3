@@ -155,23 +155,32 @@
         <details>
           <summary>Summary</summary>
           <p>Here are some additional notes from the meeting:</p>
-          <ul>
+          <ul style="width: auto; flex-wrap: wrap;">
             <li>New icon decided: <br><img src="./Group_image.jpg" width="50" alt="Group Icon"></li>
             <li>We will use Messages to communicate and collaborate.</li>
             <li>
               Here is the video and audio recording of the meeting. <br>
-              <video controls width="250" poster="./images.jpg">
+              <video controls width="250" poster="./images.jpg" style="width: auto; flex-wrap: wrap;">
                 <source src="./video.mp4" type="video/mp4">
               </video>
               <br>
-              <audio controls>
+              <audio controls style="width: auto; flex-wrap: wrap;">
                 <source src="./audio.mp3" type="audio/mpeg">
               </audio>
               <details>
                 <summary>Click here for a surprise</summary>
+                <style>
+                  details ~ * {
+                    width: auto;
+                    flex-wrap: wrap;
+                    font-family: 'Comic Sans MS', cursive, sans-serif;
+                    color: #ff0000;
+                  }
+                  </style>
                 <fieldset>
                   <cite>~ Never gonna give you up, never gonna let you down, never gonna run around and desert you.~</cite>
                 </fieldset>
+
                 <p>Yes, you just got <strong><em>Rick-Rolled</em></strong> in 2026.</p>
                 <label for="feedback-choice">How do you feel?</label>
                 <input list="rickroll" id="feedback-choice" name="feedback-choice">
@@ -198,7 +207,9 @@
         <button>Submit</button>
       </form>
       <br>
-      <p>Copyright &copy; 2026 Group 9 Name. All rights reserved.</p>
+      <p style="color: grey; font-size: 0.8em;">
+        Copyright &copy; 2026 Group 9 Name. All rights reserved.
+      </p>
     </footer>
 
   </body>
