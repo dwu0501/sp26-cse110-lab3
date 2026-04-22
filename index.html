@@ -155,27 +155,27 @@
         <details>
           <summary>Summary</summary>
           <p>Here are some additional notes from the meeting:</p>
-          <ul style="width: auto; flex-wrap: wrap;">
+          <ul style="display: flex; flex-wrap: wrap;">
             <li>New icon decided: <br><img src="./Group_image.jpg" width="50" alt="Group Icon"></li>
             <li>We will use Messages to communicate and collaborate.</li>
             <li>
               Here is the video and audio recording of the meeting. <br>
-              <video controls width="250" poster="./images.jpg" style="width: auto; flex-wrap: wrap;">
+              
+              <video controls width="250" poster="./images.jpg" style="display: block; margin: 10px 0;">
                 <source src="./video.mp4" type="video/mp4">
               </video>
               <br>
-              <audio controls style="width: auto; flex-wrap: wrap;">
+              <audio controls style="display: block; margin: 10px 0;">
                 <source src="./audio.mp3" type="audio/mpeg">
               </audio>
               <details>
                 <summary>Click here for a surprise</summary>
                 <style>
-                  details ~ * {
-                    width: auto;
-                    flex-wrap: wrap;
-                    font-family: 'Comic Sans MS', cursive, sans-serif;
-                    color: #ff0000;
-                  }
+                    details * {
+                      font-family: 'Comic Sans MS', cursive, sans-serif;
+                      color: red;
+
+                    }
                   </style>
                 <fieldset>
                   <cite>~ Never gonna give you up, never gonna let you down, never gonna run around and desert you.~</cite>
