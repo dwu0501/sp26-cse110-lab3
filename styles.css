@@ -37,7 +37,7 @@ header {
 }
 
 body {
-    background-color: color(colorspace 255 255 255);
+    background-color: color(srgb 1 1 1);
     color: black;
     display: block;
 
@@ -136,13 +136,12 @@ form button:active {
 }
 
 
-@media screen{
+@media screen and (max-width: 600px) {
     h2{
         gap: 10px;
     }
 
     ul {
-        gap: auto;
         width: auto;
         flex-wrap: wrap;
     }
